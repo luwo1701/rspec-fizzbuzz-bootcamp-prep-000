@@ -4,7 +4,7 @@ def fizzbuzz(n)
   if n%3 == 0
     puts "Fizz"
     string = string + "Fizz"
-  elsif n%5 == 0
+  if n%5 == 0
     puts "Buzz"
     string= string+"Buzz"
     #return "Buzz"
