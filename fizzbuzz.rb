@@ -13,7 +13,7 @@ def fizzbuzz(n)
     string = string + "nil"
     return nil
   end
-  #puts string
+  puts string
   return string
 end
 
