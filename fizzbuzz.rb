@@ -17,6 +17,3 @@ def fizzbuzz(n)
   return string
 end
 
-fizzbuzz(3)
-fizzbuzz(5)
-fizzbuzz(15)
