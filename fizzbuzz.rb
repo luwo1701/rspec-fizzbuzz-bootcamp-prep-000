@@ -9,7 +9,8 @@ def fizzbuzz(n)
     #puts "Buzz"
     string= string+"Buzz"
     #return "Buzz"
-  else
+  end
+  if (n%5 != 0 && n%3 != 0)
     string = string + "nil"
     return nil
   end
